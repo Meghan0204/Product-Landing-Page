@@ -1,0 +1,121 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    top: 0;
+    
+}
+
+#nav-bar li {
+    list-style: none;
+
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: black; 
+    margin-right: 40px;
+}
+
+#header-img {
+    width: 40%;
+    padding-left: 10px;
+}
+
+#video {
+    display: flex;
+    justify-content: center;
+}
+
+#video video {
+    width: 600px;
+    height: 240px;
+}
+
+#get-started {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px
+}
+
+#submit {
+    font-size: 20px;
+    border: none; 
+    background-color: orange; 
+}
+
+#pricing {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.pricing-container {
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    display: flex;                /* Make the container a flexbox */
+    flex-direction: column;        /* Stack items vertically */
+    align-items: center;           /* Center items horizontally */
+}
+
+.pricing-container ul {
+    padding: 0;                    /* Remove default padding */
+    margin: 0;                     /* Remove default margin */
+}
+
+.pricing-container li {
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.pricing-container h3 {
+    background-color: rgb(219, 219, 219);
+    width: 100%;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
+
+.pricing-container button {
+    background-color: orange;
+    border: none;
+    padding: 5px 10px;
+}
+
+#bottom-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#bottom-nav p {
+    margin-right: 20px;
+}
+
+#copyright {
+    text-align: right;
+    margin-right: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: rgb(223, 223, 223);
+    padding: 5px;
+    bottom: 0;
+    position: relative;
+}
