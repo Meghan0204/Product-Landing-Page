@@ -44,17 +44,6 @@ View the live site hosted with GitHub Pages:
 
 ---
 
-## Screenshots (Optional)
-
-*Add screenshots here to give visitors a quick visual preview.*
-
-Example:
-
-![Landing Page Screenshot](logo.jpg)  
-*Example hero section from the page*
-
----
-
 ## Contact
 
 **Meghan Ann O’Connell**  
